@@ -1,0 +1,409 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.wraper {
+    background: url(home.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+}
+@media only screen and (min-width: 600px){
+    .wraper {
+        background: url(home.jpg) no-repeat;
+        background-size: cover;
+        
+    }
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: lightgray;
+
+}
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+    position: fixed;
+
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 70px;
+} 
+.navbar ul li a{
+    position: sticky;
+    text-decoration: none;
+    color: darkslategray;
+    padding: 6px 13px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .4s;
+
+}
+.navbar ul li a.active,
+.navbar ul a:hover {
+    color: green;
+    border-radius: 2px;
+}
+.wrapper .center {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    align-items: center;
+}
+.navbar h3 {
+    
+    padding-left: 400px;
+    
+}
+.right-1 {
+   padding-left: 800px;
+   
+}
+.right-1 button {
+    padding: 15px 15px;
+    background-color: green;
+    border: none;
+}
+.right-1 button:hover {
+    background-color:black;
+    cursor: pointer;
+    color: white;
+}
+
+.center h2 {
+    color: green;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-top: 60px;
+    text-align: center;
+    
+}
+.center p {
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    
+    text-align: center;
+    
+}
+
+.buttons button {
+    margin-left: 550px;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    
+    color: white;
+    background: green;
+    outline: none;
+    cursor: pointer;
+   
+}
+.buttons button:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+section {
+    width: 100%;
+    float: left;
+    height: 100vh;
+}
+
+#about {
+background-color: white;
+}
+#service {
+    background-color: white;
+}
+#blog {
+    background-color: white;
+}
+
+    
+.about-info  {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 100px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.about-info h3 {
+    padding-top: 60px;
+    
+    font-size: 30px;
+    font-weight: lighter;
+}
+.about-info p{
+    padding:10px 10px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.about-info button {
+    padding: 10px 10px;
+    background-color: green;
+    color: white;
+}
+.about-info button:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+.info-box {
+    display: flex;
+}
+.info-box1 {
+    display: flex;
+
+}
+
+
+.info-2 {
+    border: 1px white;
+    box-shadow: 5px 10px 8px 10px lightgrey;
+    width: 150px;
+    padding: 50px;
+    margin: 20px;
+}
+.info-2:hover {
+    background-color: green;
+    animation-name: grow;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.info-21 {
+    border: 1px white;
+    box-shadow: 5px 10px 8px 10px lightgrey;
+    width: 150px;
+    padding: 50px;
+    margin: 20px;
+}
+.info-21:hover {
+    background-color: green;
+    animation-name: grow;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.info-2 h4 {
+   color: black;
+    
+
+}
+.info-3 {
+    border: 1px white;
+    box-shadow: 5px 10px 8px 10px lightgrey;
+    width: 150px;
+    padding: 50px;
+    margin: 20px;
+    font-weight: lighter;
+
+}
+@keyframes grow{
+    from {
+        margin: 20px;
+    }
+    to {
+        margin: 5px;
+    }
+}
+.info-3:hover {
+    background-color: green;
+    animation-name: grow;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.info-31 {
+    border: 1px white;
+    box-shadow: 5px 10px 8px 10px lightgrey;
+    width: 150px;
+    padding: 50px;
+    margin: 20px;
+}
+.info-31:hover {
+    background-color: green;
+    animation-name: grow;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.photo-invest {
+    display: flex;
+    padding-left: 100px;
+    
+}
+
+.invest1 {
+    border: 1px white;
+    box-shadow: 5px 10px 8px 10px lightgrey;
+    width: 150px;
+    padding: 40px;
+    margin: 20px;
+    font-weight: lighter;
+  
+}
+.invest1:hover {
+    animation-name: grow;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.invest2 {
+    border: 1px white;
+    box-shadow: 5px 10px 8px 10px lightgrey;
+    width: 150px;
+    padding: 40px;
+    margin: 20px;
+    font-weight: lighter;
+  
+}
+.invest2:hover {
+    animation-name: grow;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.image {
+    width: 160px;
+  height: 160px;
+}
+.image1 {
+    width: 160px;
+    height: 160px;
+  }
+.service-data h3{
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.service-data p {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 250px;
+}
+.service-data button {
+    border: 1px solid green;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.service-data button:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.man {
+    font-weight: lighter;
+    display: flex;
+    
+}
+.man h1{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-right: 150px;
+    
+}
+.man1 {
+    width: 200px;
+    height: 300px;
+    margin-right: 300px;
+}
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }  
+  #contact {
+     
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      margin-bottom: 5px;
+      
+  }
+  .contact-1 {
+      padding-left: 100px;
+      margin-top: 100px;
+  }
+  .contact-2 {
+      padding-left: 150px;
+      margin-top: 100px;
+  }
+  .contact-2 li {
+      list-style: none;
+  }
+  .contact-3 {
+      padding-left: 80px;
+      margin-top: 100px;
+  }
+  .contact-3 li {
+      list-style: none;
+  }
+  .contact-4 {
+    padding-left: 120px;
+    margin-top: 100px;
+}
+.contact-4 li {
+    list-style: none;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;  
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    box-shadow: 10px 10px 5px 5px lightgray;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 50px;
+    
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  #messgae {
+      background-color: white;
+  }
+  
+  
